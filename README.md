@@ -15,6 +15,6 @@
 
     Local                                                                 | Remote
 ----------------------------------------------------------------------------------------------
-Working dir. --git add--> Staging Area --git committ--> local repo --git push--> remote repo
+Working dir. --git add--> Staging Area --git commit--> local repo --git push--> remote repo
 
                          Working dir  <--git checkout-- local repo <--git pull-- remote repo
