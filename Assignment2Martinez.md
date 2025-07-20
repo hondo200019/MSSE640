@@ -6,10 +6,10 @@
 
 ![VSC on Local Machine](./Images/Screenshot%20(3).png)
 
-- Install the following extensions in VSC
+- Install the following extensions in VSC\
     i. Excalidraw\
    ii. Git History\
-  iii. Python\
+  iii. Python
 
 ![Excalidraw and Git History](./Images/VSC_extensions_1.png)
 ![Python Extensions](./Images/VSV_extensions_python.png)
