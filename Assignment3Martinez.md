@@ -37,7 +37,7 @@ git remote add origin https://github.com/hondo200019/MSSE640.git
 git push -u origin main
 ```
 
-5. How do you clone a repo and what's the difference between cloning and creating a new repo from scratch? Practice cloning a public repo from somewhere.
+5. How do you clone a repo and what's the difference between cloning and creating a new repo from scratch? Practice cloning a public repo from somewhere./
 Cloning a repo:
 ```
     git clone https://github.com/hondo200019/MSSE640.git
@@ -90,18 +90,30 @@ origin  https://github.com/hondo200019/MSSE640.git (fetch)
 origin  https://github.com/hondo200019/MSSE640.git (push) 
 ```
 
-12. What is the function of the ```git fetch``` command?
+12. What is the function of the ```git fetch``` command?/
 ```git fetch``` downloads changes from a remote repository into your local repository without merging or modifying your working files.
 
-13. What is the difference between fetch and pull? Practice using both and show the results.
+13. What is the difference between fetch and pull? Practice using both and show the results./
 Fetch downloads changes without merging changes into your working directory, whereas pull downloads AND merges changes to your current branch immediately.
 ![git fetch example](./Images/git_fetch.PNG)
 ![git pull example](./Images/git_pull.PNG)
 
-14. Make some changes in your repo and using the command line to sync those changes with your remote repo. Show the results.
+14. Make some changes in your repo and using the command line to sync those changes with your remote repo. Show the results./
 I made changes to this markdown file and am currently syncing these changes to my remote repo using CLI.
 ![Repo Sync 1](./Images/Repo_Sync_1.PNG)
-![Repo Sync 2](./Images/Repo_Sync_2.PNG)
+![Repo Sync 2](./Images/Repo_Sync_2.PNG)/
 I didn't add my images correctly in the first staging step
 
-15. 
+15. View the local branches and create a new branch. Look again. Show before and after.
+![Branch Examples](./Images/branch.PNG)
+
+16. What are different ways to switch to a new branch?
+```
+git checkout -b testing_branch
+git switch testing_branch
+git switch -c new_branch //create and switch to new branch
+git switch - //switch to previous branch
+```
+
+17. Delete your local branch without pushing to a remote or merging to your main branch. Show that it's gone.
+![Deleting Branch Example](./Images/deleting_branch.PNG)
