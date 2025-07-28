@@ -94,7 +94,7 @@ origin  https://github.com/hondo200019/MSSE640.git (push)
 ```git fetch``` downloads changes from a remote repository into your local repository without merging or modifying your working files.
 
 13. What is the difference between fetch and pull? Practice using both and show the results.\
-Fetch downloads changes without merging changes into your working directory, whereas pull downloads AND merges changes to your current branch immediately.
+Fetch downloads changes without merging changes into your working directory, whereas pull downloads AND merges changes to your current branch immediately.\
 ![git fetch example](./Images/git_fetch.PNG)
 ![git pull example](./Images/git_pull.PNG)
 
