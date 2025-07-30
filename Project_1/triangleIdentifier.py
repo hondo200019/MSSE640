@@ -19,9 +19,9 @@ def defineTriangle(a, b , c) :
 
 def triangle():
     print('Define 3 side lengths of a triangle and I will define the triangle based on your measurements.')
-    side_a = int(input("A: "))
-    side_b = int(input("B: "))
-    side_c = int(input("C: "))
+    side_a = float(input("A: "))
+    side_b = float(input("B: "))
+    side_c = float(input("C: "))
 
     if (isTriangleValid(side_a, side_b, side_c)) :
         return defineTriangle(side_a, side_b, side_c)

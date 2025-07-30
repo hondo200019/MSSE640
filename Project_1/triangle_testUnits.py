@@ -13,6 +13,9 @@ class TestTriangle(unittest.TestCase):
         '7', '7', '7', # Equilateral Triangle
         '3', '1', '3', # Isosceles Triangle
         '2', '3', '5', # Invalid Triangle with non-zero lengths
+        '1', '1', '1', # 1-1-1 Equilateral Triangle
+        '0.3', '0.8', '0.8', # Sides less than 1
+        '75', '34', '90' # Large Scalene Triangle
     ])
     def test_multiple_units(self, mock_input):
         self.assertEqual(triangle(), 'This is a Scalene Triangle')
@@ -31,6 +34,12 @@ class TestTriangle(unittest.TestCase):
         print("Testing Isosceles Triangle with inputs: 3, 1, 3")
         self.assertEqual(triangle(), "This triangle is invalid!")
         print("Testing invalid triangle with inputs: 2, 3, 5 (does not satisfy triangle inequality)")
+        self.assertEqual(triangle(), 'This is an Equilateral Triangle')
+        print("Testing a 1-1-1 Equilateral Triangle")
+        self.assertEqual(triangle(), 'This is an Isosceles Triangle')
+        print("Testing a valid triangle with side lengths less than 1")
+        self.assertEqual(triangle(), 'This is a Scalene Triangle')
+        print("Testing large valid triangle")
         
 
 
