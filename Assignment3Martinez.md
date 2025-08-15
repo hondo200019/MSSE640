@@ -27,8 +27,8 @@ echo "# MSSE640-2025summer" >> README.md
 git init
 git add README.md
 
-git config --local user.email "rgranier@regis.edu"
-git config --local user.name "Randall Granier"
+git config --local user.email "amartinez087@regis.edu"
+git config --local user.name "Alejandro Martinez"
 
 
 git commit -m "first commit"
